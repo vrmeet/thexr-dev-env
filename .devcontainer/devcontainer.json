@@ -3,11 +3,14 @@
     "dockerComposeFile": "docker-compose.yml",
     "service": "app",
     "workspaceFolder": "/app",
-    "forwardPorts": [4000],
+    "forwardPorts": [
+        4000
+    ],
     "shutdownAction": "stopCompose",
     "extensions": [
-        "mjmcloug.vscode-elixir",
+        // "mjmcloug.vscode-elixir",
         "jakebecker.elixir-ls",
-        "florinpatrascu.vscode-elixir-snippets",
+        "phoenixframework.phoenix"
+        // "florinpatrascu.vscode-elixir-snippets",
     ],
 }
