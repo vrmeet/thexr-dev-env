@@ -13,4 +13,7 @@
         "phoenixframework.phoenix"
         // "florinpatrascu.vscode-elixir-snippets",
     ],
+    "remoteEnv": {
+        "ERL_AFLAGS": "-kernel shell_history enabled"
+    }
 }
